@@ -28,6 +28,7 @@ public class Main {
     myEmployees.displayAverageSalary();
   }
 }
+
 Top, du coup, voici un petit extra avec la même base: 
  
 Lorsque vous montrez au directeur le résultat de votre programme permettant d'afficher les salaires, il est content mais il y a un problème... Il a oublié de vous parler du fait que la societé travaille avec des indépendants, et leur factures doivent entrer en compte dans le calcul des salaires.
@@ -37,6 +38,14 @@ L'équivalent de leur salaire se calcul avec la somme des factures qui lui sont 
 Une facture est caractérisée par une date, une somme en euros, et un libellé représentant la nature de la prestation
 Les factures dont le libellé commence par "Frais de déplacement - " ne doivent pas être prises en compte dans le calcul du salaire d'un indépendant
 A la fin de votre entretien, vous récupérez une information supplémentaire de dernière minute. Le directeur aimerait avoir l'affichage du nom complet de l'employé lors de l'affichage de son salaire, et si il est indépendant, cela doit être facilement reconnaissable.
+
+
+
+
+
+
+
+
 
 
 on veut réaliser un programme de gestion des recettes de cuisine, qui sera installé sur
@@ -72,6 +81,20 @@ Un ingrédient qu'on peut cuire doit avoir une méthode cuire() qui le fait pass
 température de cuisson. Un ingrédient qu'on peut découper doit avoir une méthode decouper() qui le
 fait passer dans l'état "découpé". Proposez du code objet pour représenter ces types d'ingrédients.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Hello, wep j'ai quelquechose sous la main: 
  
 On veut créer la fonction de recherche d'un shop de vêtements en ligne
@@ -94,6 +117,19 @@ public List<Vetement> filterClothes(List<Vetement> stock, List<VetementType> vet
     // et au moins composés d'une des matières présente dans la variable vetementCompos
     .....
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 écrire une fonction qui calcule la valeur factorielle d'un nombre: 
 par exemple:
