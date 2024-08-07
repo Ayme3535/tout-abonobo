@@ -1,0 +1,111 @@
+<! DOCTYPE html>
+<html lang "fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Formulaire KFC></title>
+        <link href="../Tuto_HTML/style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Montserrat&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Manrope:wght@300&family=Montserrat&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Manrope:wght@300&family=Montserrat&family=Open+Sans:wght@300&family=Vina+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@1,300&family=Manrope:wght@300&family=Montserrat&family=Open+Sans:wght@300&family=Vina+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@1,300&family=Manrope:wght@300&family=Montserrat&family=Open+Sans:wght@300&family=Roboto&family=Vina+Sans&display=swap" rel="stylesheet">    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@1,300&family=Kdam+Thmor+Pro&family=Manrope:wght@300&family=Montserrat&family=Open+Sans:wght@300&family=Roboto&family=Vina+Sans&display=swap" rel="stylesheet">
+    <body>
+        <header>
+            <nav>
+                <div class="entete">
+                    <img src="../images/kkffcc.png" alt="Logo KFC">
+                    <a href="../Tuto_HTML/index.html">Accueil</a>
+                    <a href="../Demo/Page2.html">A propos du KFC</a>
+                    <a href="../Formulaire/formu.html">Nous contacter</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <p>Chez Kentucky Fried Chickens, nous croyons fermement que l'expérience de nos clients est au cœur de tout ce que nous faisons. Votre satisfaction est notre priorité absolue, et nous sommes toujours désireux d'entendre ce que vous pensez de nos produits/services.<br>
+                 Nous vous encourageons à partager vos opinions, suggestions et commentaires avec nous. Votre retour d'expérience est précieux et nous aide à améliorer continuellement la qualité de nos services.
+                </p><br><br>
+                <h2>Veuillez compléter ce formulaire en suivant les indications :</h2>
+                <form method="get" action="">
+                    <label for="prenom">PRENOM</label> : <input type="text" name="prenom id="prenom" placeholder="Ex. : Samuel" size="20"><br>
+                    <label for="nom">NOM</label> : <input type="text" name="nom" id="nom" placeholder="Ex. : Di Lorenzo" size="20"><br>
+                    <label for="email">ADRESSE ELECTRONIQUE"</label> : <input type="email" name="email" id="email" placeholder="Ex. : Samuel@gmail.com" size="40"><br>
+                    <label for="pays">DANS QUEL PAYS HABITEZ VOUS ?</label>
+                    <select name="pays" id="pays">
+                        <option value="suisse" selected>Suisse</option>
+                        <option value="usa">États-Unis</option>
+                        <option value="uk">Royaume-Uni</option>
+                        <option value="china">Chine</option>
+                        <option value="india">Inde</option>
+                        <option value="usa">États-Unis</option>
+                        <option value="france">France</option>
+                        <option value="belgique">Belgique</option>
+                        <option value="algerie">Algérie</option>
+                    </select>
+                    <h2>Répondez au sondage suivant :</h2>
+                    <p class="sondage">
+                            1) Quel est votre produit KFC préféré parmi nos options de poulet :<br>
+                            <input type="checkbox" name="tenders" id="tenders"><label for="tenders"> Tenders</label><br>
+                            <input type="checkbox" name="hot wings" id="hot wings"><label for="hot wings"> Hot Wings</label><br>
+                            <input type="checkbox" name="original recipe" id="original recipe"><label for="original recipe"> Original Recipe</label><br>
+                    </p>
+                    <p class="sondage">
+                            2) Sur une échelle de 1 à 10, à quel point êtes-vous satisfait(e) de votre expérience avec nos produits KFC ?<br>
+                            <input type="checkbox" name="1-3" id="1-3"><label for="1-3">1-3</label><br>
+                            <input type="checkbox" name="4-6" id="4-6"><label for="4-6">4-6</label><br>
+                            <input type="checkbox" name="7-8" id="7-8"><label for="7-8"> 7-8</label><br>
+                            <input type="checkbox" name="9-10" id="9-10"><label for="9-10"> 9-10</label><br>
+                    </p>
+                    <p class="sondage">
+                        3) Comment évaluez-vous la qualité et la fraîcheur de nos produits KFC que vous avez récemment dégustés ?<br>
+                        <input type="checkbox" name="excellente" id="excellente"><label for="excellente">Excellente</label><br>
+                        <input type="checkbox" name="bonne" id="bonne"><label for="bonne">Bonne</label><br>
+                        <input type="checkbox" name="moyenne" id="moyenne"><label for="moyenne"> Moyenne</label><br>
+                        <input type="checkbox" name="insatisfaisante" id="insatisfaisante"><label for="insatisfaisante"> Insatisfaisante</label><br>
+                </p>
+                <h2>Merci d'avoir répondu au sondage,laissez un commentaires si vous le souaitez :</h2>
+                <label for="commentaires"></label><textarea name="commentaires" id="commentaires"></textarea><br>
+                <input type="submit" id="envoyer" name="envoyer" size="30">
+                
+            
+                </form>
+
+            </section>
+        </main>
+        <footer>
+            <div>
+             <img src="C:/Users/AymenBrahmi/Desktop/images/kkffcc.png" alt "Logo simple KFC">  
+             <a target="_blank" href="https://twitter.com/" class="survol">
+                 <img src="C:/Users/AymenBrahmi/Desktop/images/twitter.png" alt="Logo twitter" Title="Retrouvez nous sur twitter"> 
+             </a>  
+             <a target="_blank" href="https://www.instagram.com/" class="survol">
+                 <img src="../images/insta.png" alt="Logo instagram" Title="Retrouvez nous sur instagram"><br> 
+             </a>  
+            </div> 
+       </footer>    
+        
+
+
+
+
+
+
+
+
+
+
+    </body>
+        

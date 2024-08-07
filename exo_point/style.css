@@ -1,0 +1,47 @@
+.div {
+    animation: fade-up 0.5s;
+}
+html, body {
+    margin: 0px;
+    }
+div {
+    height: 10px;
+    width: 10px;
+}
+#boubis {
+    height: 10px;
+    width: 15px;
+}
+
+body {
+    background-color: beige;
+    height: 100%;
+
+}
+header{
+    text-align: center;
+    z-index: 100;
+    font-size: 25px;
+}
+section{
+    z-index: 1;
+}
+#myCanvas{
+    background-color: black;
+    z-index: 1;
+}
+#myCanvas2{
+    background-color:  #F5F5DC;
+    z-index: 1;
+}
+.slidecontainer{
+    text-align: right;
+}
+#myCanvas35{
+    position: absolute;
+    width:
+}
+#myCanvas12{
+    position: absolute;
+    left: 50px;   
+}

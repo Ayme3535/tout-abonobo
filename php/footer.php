@@ -1,0 +1,1 @@
+<h2 style="text-align: center; font-family: Georgia, serif; padding-top : 100px ; ">Restez connecté</h2>

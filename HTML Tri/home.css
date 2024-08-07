@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+   
+body, html {
+    margin: 0;
+    height: 100%;
+  }
+   
+.container {
+    height: 100%;
+  }
+   
+.left, .right {
+    float: left;
+    background-color: #e99;
+    overflow: hidden;
+    transition: all .5s;
+    height: 100%;
+  }
+   
+.left {
+    width: 100%;
+  }
+.right {
+    width: 50%;
+  }
+   
+.expanded .left {
+    width: 50%;
+    background-color: #f00;
+    color: #fff;
+  }  

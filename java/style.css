@@ -1,0 +1,124 @@
+body {
+    background-color: beige;
+    margin: auto;
+}
+h1 {
+    font-family: 'Signika Negative';
+    text-align: center;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    animation:slide-in-fwd-top .4s cubic-bezier(.25,.46,.45,.94) both;
+}
+@keyframes slide-in-fwd-top {
+0% {
+-webkit-transform: translateZ(-1400px) translateY(-800px);
+    transform: translateZ(-1400px) translateY(-800px);
+opacity: 0;
+}
+100% {
+-webkit-transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
+opacity: 1;
+}
+}
+@keyframes slide-in-fwd-top {
+0% {
+-webkit-transform: translateZ(-1400px) translateY(-800px);
+    transform: translateZ(-1400px) translateY(-800px);
+opacity: 0;
+}
+100% {
+-webkit-transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
+opacity: 1;
+}
+}
+
+header {
+    background-color:wheat;
+    height: 100px;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-family:'Signika Negative';
+    font-size: 30px;
+    margin-top: 50px;
+}
+.recherche1 {
+   
+}
+.recherche2 { 
+
+}
+.recherche3 {
+    
+}
+.titre-1 {
+}
+.titre-2 {
+   
+}
+.titre-3 {
+    margin-top: 100px;
+
+}
+.deuxmatchs1 {
+font-family: 'Comfortaa';
+font-size: 25px;
+margin-left: 100px;
+margin-top: 50px;
+display: flex;
+gap: 200px;
+}
+.deuxmatchs2 {
+    font-family: 'Comfortaa';
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    gap: 200px;
+}
+.deuxmatchs3 {
+    
+        font-family: 'Comfortaa';
+        font-size: 25px;
+        margin-left: 100px;
+        margin-top: 50px;
+        display: flex;
+        gap: 200px;
+        
+}
+footer {
+    text-align: center;
+    font-size: 30px;
+    font-family:'Comfortaa'; 
+    margin-top: 150px;
+}
+.liverpool {
+    width: 50%;
+    
+}
+.city {
+    width: 50%;
+    margin-right: 100px;
+}
+.bayern {
+    width: 50%;
+    
+}
+.frankfurt {
+    width: 50%;
+    margin-right: 100px;
+}
+.lazio {
+    width: 50%;
+    
+}
+.milan {
+    width: 50%;
+    margin-right: 100px;
+}

@@ -1,0 +1,99 @@
+body {
+    background: linear-gradient(#ecf0f6,#c9d6e8)
+}
+header {
+    background-color: white;
+    text-align: center;
+    margin-right: auto;
+}
+h1 {
+    font-family: 'Climate Crisis', sans-serif ;
+    font-weight: 800;
+    font-size: 36px;
+}
+.a {
+    text-align: center;
+    font-size: 20px;
+    font-family : 'Caveat', cursive ;
+}
+.flex {
+    display: flex;
+    gap: 200px;
+    margin-left: 150px;
+    margin-top: 100px;
+    font-family : 'Caveat', cursive ;
+    font-size: 20px;
+    animation: fade-up 0.5s;
+
+}
+.recup {
+    animation: fade-up 0.5s;
+}
+#ok {
+    animation: fade-up 0.5s;
+}
+#fade {
+    animation: fade-up 0.5s;
+}
+#fade2{
+    animation: fade-up 0.5s;
+}
+#bdetail{
+    animation: fade-up 0.5s;
+}
+#detail{
+    animation: fade-up 0.5s;
+}
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateX(50px) scale(1);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px) scale(1);
+    }
+}
+.nbr {
+    width: 50%;
+}
+img {
+    border: double #000000;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    max-height : 100%;
+    width : auto
+}
+button {
+   font-size: 20px;
+   border-radius: 10px;
+   border: solid rgba(0, 0, 0, 0.445);
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5) ;
+   background-color: white;
+   cursor: pointer;
+}
+.bouton {
+    margin-top: 50px;
+    animation: fade-up 0.5s;
+}
+#resultat {
+    width: 25%;
+    margin-left: 150px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family : 'Caveat', cursive ;
+    animation: fade-up 0.5s;
+    
+}
+#liste_tri {
+    font-weight: 600;
+}
+#nbr_per {
+    font-weight: 600;
+}
+#nbr_etape {
+    font-weight: 600;
+}
+#nbr_et_per {
+    font-weight: 600;
+}
